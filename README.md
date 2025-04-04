@@ -41,4 +41,20 @@
 
 # Config drivern UI --  design pattern where the user interface is dynamically generated based on a configuration (usually json)
 
+# Types of exports 
+
+# Default exports 
+ export default Component
+ import Component from 'path'
+
+# named exports
+ export const Component
+ import {Component} from 'path'
+
+# React Hooks - Normal JS utilites function written by React developer.
+
+- useState
+- useEffect.
+
+# whenever a state variables update react re render the component.
 
